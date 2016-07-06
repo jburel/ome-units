@@ -38,7 +38,7 @@ equations = [
 ]
 
 units = {
-    pa: "Pascal",
+    pa: "PASCAL",
     bar: "BAR",
     megabar: "MEGABAR",
     kbar: "KILOBAR",
@@ -51,9 +51,6 @@ units = {
     mtorr: "MILLITORR",
     mmhg: "MMHG",
 }
-
-# Only the non-prefixed "Pascal" is not uppercase
-add_si(pa, "PASCAL", units, equations)
 
 if __name__ == "__main__":
     import sys
