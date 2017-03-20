@@ -63,6 +63,7 @@ class ${name}I(_omero_model.${name}, UnitBase):
 {% end %}\
 {% end %}\
 {% end %}\
+    del val
 
     SYMBOLS = dict()
 {% for x in sorted(items) %}\
